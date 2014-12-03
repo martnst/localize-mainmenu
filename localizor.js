@@ -48,9 +48,9 @@ fs.readFile(inputFilePath, program.encoding, function (err,data) {
       return; // skip this file
     }
 
-    if (mappings['de'] == undefined) {
+    if (mappings[targetLang] == undefined) {
       try {
-         mappings['de'] = require('./languages/' + targetLang + '.json');
+         mappings[targetLang] = require('./languages/' + targetLang + '.json');
       } catch (e) {
         console.warn("unsupported target-language '%s' for file %s", targetLang, fileName);
         return; // skip this file
