@@ -8,6 +8,7 @@ var xmldoc = require('xmldoc'),
 program
   .version('0.0.1')
   .option('-v, --verbose', 'enable verbose logging')
+  .option('--encoding [encoding]', 'specify encoding for opening and writing the files (default: UTF8)', 'UTF8')
   .usage('<input_file> <output_file> [options]')
   .parse(process.argv);
 
@@ -26,7 +27,7 @@ if (!fs.existsSync(inputFilePath)) {
 
 var mappings = {};
 
-fs.readFile(inputFilePath, 'utf8', function (err,data) {
+fs.readFile(inputFilePath, program.encoding, function (err,data) {
   if (err) {
     return console.log(err);
   }
