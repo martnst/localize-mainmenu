@@ -6,7 +6,7 @@ var xmldoc = require('xmldoc'),
      colors = require('colors');
 
 program
-  .version('0.0.1')
+  .version(require('./package.json').version)
   .option('-v, --verbose', 'enable verbose logging')
   .option('--encoding [encoding]', 'specify encoding for opening and writing the files (default: UTF8)', 'UTF8')
   .option('--appname [appname]', 'specify the app name to localize items like \'About MyApp\'', null)

@@ -7,12 +7,15 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "color": "^0.7.3",
     "colors": "^1.0.3",
     "commander": "^2.5.0",
     "xmldoc": "^0.1.3"
   },
   "bin": {
-  }
     "localize-mainmenu": "localizor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maremmle/localize-mainmenu.git"
+ }
 }
