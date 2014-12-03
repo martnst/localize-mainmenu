@@ -9,6 +9,7 @@ program
   .version('0.0.1')
   .option('-v, --verbose', 'enable verbose logging')
   .option('--encoding [encoding]', 'specify encoding for opening and writing the files (default: UTF8)', 'UTF8')
+  .option('--appname [appname]', 'specify the app name to localize items like \'About MyApp\'', null)
   .usage('<input_file> <output_file> [options]')
   .parse(process.argv);
 
@@ -51,6 +52,7 @@ fs.readFile(inputFilePath, program.encoding, function (err,data) {
     if (mappings[targetLang] == undefined) {
       try {
          mappings[targetLang] = require('./languages/' + targetLang + '.json');
+         insertAppName(targetLang, program.appname);
       } catch (e) {
         console.warn("unsupported target-language '%s' for file %s", targetLang, fileName);
         return; // skip this file
@@ -101,6 +103,17 @@ fs.readFile(inputFilePath, program.encoding, function (err,data) {
 });
 
 
+function insertAppName(targetLang, appName) {
+  if (!program.appname) { return; }
+  var mappingForLang = mappings[targetLang];
+  for (var key in mappingForLang) {
+    try {
+      var value = mappingForLang[key].replace("<AppName>", appName);
+      mappingForLang[key.replace("<AppName>", appName)] = mappingForLang[key].replace("<AppName>", appName);
+    } catch(e) {}
+  }
+  mappings[targetLang] = mappingForLang;
+}
 
 String.prototype.containsSubstring = function(substr) {
     return this.indexOf(substr) > -1;
