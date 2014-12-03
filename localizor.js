@@ -72,7 +72,7 @@ fs.readFile(inputFilePath, program.encoding, function (err,data) {
             if (translation == undefined) {
               console.log("no '%s' translation found for key '%s' in file '%s'", targetLang, source, fileName);
             } else {
-              console.log("replaced '%s' with '%s' (language:'%s') for key '%s' in file '%s'".green, target.val, translation, targetLang, source, fileName); 
+              if (program.verbose) { console.log("replaced '%s' with '%s' (language:'%s') for key '%s' in file '%s'".green, target.val, translation, targetLang, source, fileName); }
               target.val = translation;
             }
           } else {
