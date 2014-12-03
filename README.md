@@ -40,7 +40,7 @@ Let this small command line tool take care of the common menu items for you. So 
 
 ## Requirements
 
-- XCode 6 *(or heighter)*
+- XCode 6 *(or higher)*
 - [Node.js](http://nodejs.org)
 
 
