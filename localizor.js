@@ -33,6 +33,9 @@ fs.readFile(inputFilePath, program.encoding, function (err,data) {
     return console.log(err);
   }
 
+  var xmlHeader = data.toString().split("\n")[0];
+  xmlHeader = (xmlHeader.containsSubstring("<?xml") ? (xmlHeader + "\n") : "");
+
   var document = new xmldoc.XmlDocument(data);
 
   document.eachChild(function(child, index, array) {
@@ -94,7 +97,7 @@ fs.readFile(inputFilePath, program.encoding, function (err,data) {
 
   console.log();
 
-  fs.writeFile(outputFilePath, document.toString(), function (err) {
+  fs.writeFile(outputFilePath, xmlHeader + document.toString(), function (err) {
     if (err) {
       console.log("Failed to write output file:\n\n\t%s\n".red, err); 
     }
