@@ -1,7 +1,9 @@
  {
   "About <AppName>" : "Acerca de <AppName>",
+  "Bring <AppName> Window to Front" : "Traer <AppName> al frente",
   "Bring All to Front" : "Traer toto al frente",
   "Capitalize" : "Mayúscula inicial",
+  "Check Document Now" : "Comprobar documento ahora",
   "Check Grammar With Spelling" : "Revisar la gramática con la ortografía",
   "Check Spelling While Typing" : "Revisar la ortografía mientras se escribe",
   "Close" : "Cerrar",
@@ -23,6 +25,8 @@
   "Make Lower Case" : "Convertir en minúsculas",
   "Make Upper Case" : "Convertir en mayúsculas",
   "Minimize" : "Minimizar",
+  "Open…" : "Abrir…",
+  "Paste and Match Style" : "Pegar con el mismo estilo",
   "Paste" : "Pegar",
   "Preferences…" : "Preferencias…",
   "Quit <AppName>" : "Salir de <AppName>",
@@ -37,8 +41,8 @@
   "Smart Links" : "Enlaces inteligentes",
   "Smart Quotes" : "Comillas tipográficas",
   "Speech" : "Locución",
-  "Speech" : "Locución",
   "Spelling and Grammar" : "Ortografía y gramática",
+  "Spelling" : "Ortografía",
   "Start Speaking" : "Comenzar locución",
   "Stop Speaking" : "Detener locución",
   "Substitutions" : "Sustituciones",
@@ -46,12 +50,7 @@
   "Transformations" : "Transformaciones",
   "Undo" : "Deshacer",
   "Use Selection for Find" : "Utilizar selección para buscar",
+  "Use Selection for Replace" : null,
   "Window" : "Ventana",
   "Zoom" : "Zoom"
 }
-
-
- 
-
- 
-

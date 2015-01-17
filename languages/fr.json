@@ -1,5 +1,6 @@
  {
   "About <AppName>" : "À propos de <AppName>",
+  "Bring <AppName> Window to Front" : null,
   "Bring All to Front" : "Tout ramener au premier plan",
   "Capitalize" : "Mettre une majuscule",
   "Check Document Now" : "Vérifiez le document maintenant",
@@ -18,16 +19,16 @@
   "Find" : "Rechercher",
   "Find…" : "Rechercher…",
   "Help" : "Aide",
-  "Hide Calex" : "Masquer Calex",
+  "Hide <AppName>" : "Masquer <AppName>",
   "Hide Others" : "Masquer les autres",
   "Jump to Selection" : "Aller à la sélection",
   "Make Lower Case" : "Mettre en minuscules",
   "Make Upper Case" : "Mettre en majuscules",
   "Minimize" : "Placer dans le Dock",
-  "Minimize" : "Réduire",
+  "Open…" : "Ouvrir…",
   "Paste" : "Coller",
   "Preferences…" : "Préférences…",
-  "Quit Calex" : "Quitter Calex",
+  "Quit <AppName>" : "Quitter <AppName>",
   "Redo" : "Rétablir",
   "Select All" : "Sélectionner tout",
   "Select All" : "Tout sélectionner",
@@ -42,6 +43,7 @@
   "Smart Quotes" : "Guillemets anglais",
   "Speech" : "Fonction vocale",
   "Spelling and Grammar" : "Orthographe et grammaire",
+  "Spelling" : "Orthographe",
   "Start Speaking" : "Activer la fonctionnalité vocale",
   "Stop Speaking" : "Désactiver la fonctionnalité vocale",
   "Substitutions" : "Substitutions",
@@ -49,19 +51,7 @@
   "Transformations" : "Transformations",
   "Undo" : "Annuler",
   "Use Selection for Find" : "Utiliser la sélection pour la recherche",
+  "Use Selection for Replace" : null,
   "Window" : "Fenêtre",
   "Zoom" : "Zoom"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
