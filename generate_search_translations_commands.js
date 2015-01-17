@@ -1,3 +1,5 @@
+// run node generate_search_translations_commands.js 
+
 var fs = require('fs');
 var colors = require('colors');
 var template_file_name = '_template.json';
