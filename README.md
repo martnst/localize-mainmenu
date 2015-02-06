@@ -54,7 +54,8 @@ Please fork the repo and create a pull request when you are done.
 
 1. Make copy of ``languages/_template.json`` and name it using the two lowercase language code. (e.g. ``de.json``).
 2. Fill out the new language json file.
-	- Running  ``node generate_search_translations_commands.js`` will generate command line commands for each existing language to look for tokings within your installed apps. 
+	- Running  ``node generate_search_translations_commands.js`` will generate command line commands for each existing language to look for tokens within your installed apps.
+	- Here’s a [Map of Standard Internationalised OS X Application Menu Strings to Menu Locations](https://source.ind.ie/project/map-of-standard-internationalised-os-x-application-menu-strings-to-menu-locations/tree/master) if you’d like to base your translations off of Apple’s ones from Pages manually and you don’t want to hunt for their locations.
 	- The [App Language Chooser](https://itunes.apple.com/de/app/app-language-chooser/id451732904?mt=12) allows you to start any app (prefer Apple's like Pages) an a language of your choice. This comes in handy to check how Apple translated particular menu items.  
 	- As [@catlan](https://github.com/catlan) pointed out in [Issue #1](/../../issues/1) there is a collection of translated menu nib files.
 3. Run ``node validate_language_files.js`` to validate whether all languages are formatted in correct json and check the token token quantity of all files.
