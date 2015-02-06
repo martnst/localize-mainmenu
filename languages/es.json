@@ -1,7 +1,7 @@
  {
   "About <AppName>" : "Acerca de <AppName>",
   "Bring <AppName> Window to Front" : "Traer <AppName> al frente",
-  "Bring All to Front" : "Traer toto al frente",
+  "Bring All to Front" : "Traer todo al frente",
   "Capitalize" : "Mayúscula inicial",
   "Check Document Now" : "Comprobar documento ahora",
   "Check Grammar With Spelling" : "Revisar la gramática con la ortografía",
@@ -50,7 +50,7 @@
   "Transformations" : "Transformaciones",
   "Undo" : "Deshacer",
   "Use Selection for Find" : "Utilizar selección para buscar",
-  "Use Selection for Replace" : null,
+  "Use Selection for Replace" : "Utilizar selección para reemplazar",
   "Window" : "Ventana",
   "Zoom" : "Zoom"
 }
