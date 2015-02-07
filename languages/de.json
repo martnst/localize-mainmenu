@@ -1,7 +1,7 @@
 {
   "About <AppName>" : "Über <AppName>",
-  "Bring <AppName> Window to Front" : "<AppName> nach vorne bringen",
-  "Bring All to Front" : "Alle nach vorne bringen",
+  "Bring <AppName> Window to Front" : "<AppName> in den Vordergrund bringen",
+  "Bring All to Front" : "Alle in den Vordergrund bringen",
   "Capitalize" : "Anfangsbuchstaben großschreiben",
   "Check Document Now" : "Dokument jetzt überprüfen",
   "Check Grammar With Spelling" : "Grammatik zusammen mit Rechtsschreibung prüfen",
@@ -50,8 +50,8 @@
   "Text Replacement" : "Text ersetzen",
   "Transformations" : "Transformationen",
   "Undo" : "Widerrufen",
-  "Use Selection for Find" : "Auswahl suchen",
-  "Use Selection for Replace" : "Auswahl für Ersetzen übernehmen",
+  "Use Selection for Find" : "In Auswahl suchen",
+  "Use Selection for Replace" : "In Auswahl ersetzen",
   "Window" : "Fenster",
   "Zoom" : "Zoomen"
 }
