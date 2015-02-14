@@ -1,6 +1,6 @@
 {
   "name": "localize-mainmenu",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Command line tool that localizes the common main menu items of an OS X app automatically.",
   "author": "Martin Stemmle",
   "engines": {
