@@ -60,6 +60,7 @@ Please fork the repo and create a pull request when you are done.
 	- The [App Language Chooser](https://itunes.apple.com/de/app/app-language-chooser/id451732904?mt=12) allows you to start any app (prefer Apple’s like Pages) in the language of your choice. This is a handy way to check how Apple translated particular menu items.
 	- Here’s a [Map of Standard Internationalised OS X Application Menu Strings to Menu Locations](https://source.ind.ie/project/map-of-standard-internationalised-os-x-application-menu-strings-to-menu-locations/tree/master) to help you find the localised reference strings in Pages.
 	- As [@catlan](https://github.com/catlan) points out in [Issue #1](/../../issues/1) there is also a collection of translated menu nib files that you can refer to.
+	- [extract-localization](https://github.com/hendriks73/extract-localization) by [@hendriks73](https://github.com/hendriks73) can be used to extract localized strings from existing OS X apps. 
 3. Run ``node validate_language_files.js`` to validate whether all languages are formatted in correct JSON and check the token quantity of all files.
 4. Commit new langauge files one by one.
  
