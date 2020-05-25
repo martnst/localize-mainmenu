@@ -67,5 +67,5 @@ Please fork the repo and create a pull request when you are done.
  
 ## Miscellaneous
 
-- [Here is a short list of XLIFF-capable editors](https://gist.github.com/maremmle/8597b27bb52baf00f1ef) I started. Feel free to contribute or hint to an existing collection. 
+- [Here is a short list of XLIFF-capable editors](https://gist.github.com/martnst/8597b27bb52baf00f1ef) I started. Feel free to contribute or hint to an existing collection. 
 
